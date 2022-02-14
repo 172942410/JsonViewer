@@ -8,7 +8,7 @@ Android JSON viewer, to convert JSON Strings to a Friendly Readable Format, it s
 ## Dependencies
 
 ```
-compile 'com.yuyh.json:jsonviewer:1.0.6'
+compile 'com.yuyh.json:jsonviewer:1.0.7'
 ```
 
 ## Usage
@@ -53,6 +53,8 @@ mRecyclewView.setBracesColor()
 // TextSize
 mRecyclewView.setTextSize()
 ```
+//设置是否默认展开
+mRecyclewView.setValueOpen(true);
 
 ## LICENSE
 
