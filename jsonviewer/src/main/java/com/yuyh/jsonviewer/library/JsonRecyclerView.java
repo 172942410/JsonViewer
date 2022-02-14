@@ -190,4 +190,14 @@ public class JsonRecyclerView extends RecyclerView {
 
         }
     };
+
+    /**
+     *
+     * @param isOpen 是否默认展开
+     */
+    public void setValueOpen(boolean isOpen) {
+        if(mAdapter != null){
+            mAdapter.setValueOpen(isOpen);
+        }
+    }
 }

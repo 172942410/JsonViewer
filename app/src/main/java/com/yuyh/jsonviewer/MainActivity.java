@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void run() {
                             mRecyclewView.bindJson(result);
+                            mRecyclewView.setValueOpen(true);
                         }
                     });
                 } catch (IOException e) {
